@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run: echo "hello world" # run the `echo` command
-      - run: zip project1.zip project1
+      - run: zip -r project1.zip project1
